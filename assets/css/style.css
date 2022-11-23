@@ -6,6 +6,15 @@ body {
 
 }
 
+* {
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+
+a {
+    text-decoration: none;
+}
+
 header {
     display: flex;
     /* flex-direction: row; */
@@ -25,3 +34,132 @@ header {
 }
 
 
+/* INTROSECTION HISSESI START */
+
+
+.introsection {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 112.5px;
+    width: 100%;
+
+}
+
+.introsection .left-side {
+    padding-top: 117px;
+    display: flex;
+    flex-direction: column;
+    min-width: 715px;
+}
+
+.introsection .left-side h1 {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    /* line-height: 82px; */
+    /* identical to box height, or 115% */
+    
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    /* font-size: 100%; */
+  
+    
+
+}
+
+.introsection .left-side h1 span {
+    color:#FF8A56;
+
+}
+
+.introsection .right-side {
+    padding-top: 70px;
+    min-width: 500px;
+}
+
+.introsection .left-side small {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    color:#666;
+   
+}
+
+.introsection .left-side button {
+    width: 151px;
+    height: 58px;
+    background-color: #000;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.introsection .left-side a {
+    margin-right: 15px;
+    color:#000;
+}
+
+
+@media(min-width:768px) and (max-width:1460px) {
+    .introsection .left-side {
+        flex-basis: 100%;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+
+@media(max-width:847px) {
+    .introsection {
+        padding: 0;
+    }
+
+    .introsection .left-side {
+        min-width: 500px;
+       
+    }
+
+    .introsection .left-side h1 {
+        text-align: center;
+        font-size: 54px;
+    }
+
+    .introsection .left-side small {
+       
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .book-a-call {
+        text-align: center;
+    }
+}
+
+
+@media(max-width:768px) {
+    .introsection .left-side {
+        flex-basis: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    body {
+        overflow-x:hidden;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* INTROSECTION HISSESI END */
