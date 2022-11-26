@@ -178,3 +178,36 @@ header {
 
 
 /* INTROSECTION HISSESI END */
+
+
+/* TRUSTED BY SECTION START */
+
+/* .trusted-by-section {
+   padding: 0 289px;
+} */
+
+.trusted-by-section h5 {
+    /* background-color: red; */
+    text-align: center;
+    font-size: 18px;
+}
+.trusted-by-companies {
+    padding-top: 77px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+@media(max-width:768px) {
+    .trusted-by-company:nth-child(even) {
+        display: none;
+    }
+}
+
+@media(max-width:576px) {
+    .trusted-by-company:not(:first-child) {
+        display: none;
+    }
+}
+
+/* TRUSTED BY SECTION END */
