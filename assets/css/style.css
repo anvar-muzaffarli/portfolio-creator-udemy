@@ -41,6 +41,7 @@ header {
     /* background-color: red; */
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
     padding: 0 112.5px;
     width: 100%;
@@ -79,6 +80,7 @@ header {
 .introsection .right-side {
     padding-top: 70px;
     min-width: 500px;
+    
 }
 
 .introsection .left-side small {
@@ -111,6 +113,11 @@ header {
         padding-left: 0;
         padding-right: 0;
     }
+
+    .introsection .right-side {
+        display: flex;
+        margin: 0 auto;
+    }
 }
 
 
@@ -118,6 +125,7 @@ header {
 @media(max-width:847px) {
     .introsection {
         padding: 0;
+        align-items: center;
     }
 
     .introsection .left-side {
@@ -139,6 +147,12 @@ header {
     .book-a-call {
         text-align: center;
     }
+
+    .introsection .right-side {
+        display: flex;
+        margin: 0 auto;
+    }
+
 }
 
 
