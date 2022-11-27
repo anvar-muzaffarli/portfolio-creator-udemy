@@ -311,6 +311,7 @@ margin-top: 40px;
    font-size: 22px;
    letter-spacing: 4px;
    color: #B16CEA;
+  
 
 
 }
@@ -318,6 +319,7 @@ margin-top: 40px;
 
 .projects-cards {
     display: flex;
+    z-index: 3;
 }
 
 .project-card {
@@ -332,6 +334,7 @@ margin-top: 40px;
 
 .project-card-bottom {
     padding: 32px;
+    background-color: #fff;
    
 }
 
@@ -382,3 +385,84 @@ margin-top: 40px;
     }
 }
  /* PROJECTS SECTION END */
+
+
+ /* LATEST BLOG SECTION START */
+ .latest-blog-section {
+    background-color: #000;
+
+    padding: 117px;
+    padding-top: 144px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: -10%;
+ }
+
+ .latest-blog-section h6 {
+    color:orange;
+    margin-bottom: 15px;
+    font-size: 22px;
+ }
+ .latest-blog-section h1 {
+    color:white;
+    margin-bottom: 20px;
+    font-size: 54px;
+ }
+
+ .latest-blog-section a,
+ .latest-blog-section h2
+  {
+    color:white;
+ }
+
+ .latest-blog-section .left-side {
+    flex-basis: 50%;
+
+    display: flex;
+    flex-direction: column;
+    min-width: 373px;
+
+ }
+
+ .latest-blog-section .right-side {
+    flex:1;
+    min-width: 509px;
+ }
+
+
+ .latest-blog-section .right-side .blog {
+    padding: 20px 20px 20px 0;
+    border-bottom: 1px solid #666;
+ }
+
+ .blog .metadata {
+    color:#666;
+    margin-bottom: 30px;
+    display: inline-block;
+ }
+
+ .latest-blog-section .right-side .blog h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    width: 489px;
+ }
+
+
+ @media(max-width:768px) {
+    .latest-blog-section {
+        padding-left:0;
+        padding-right: 0;
+        align-items: center;
+        
+        
+    }
+
+    .latest-blog-section .right-side {
+        min-width: 450px;
+       
+    }
+ }
+
+ /* LATEST BLOG SECTION END */
